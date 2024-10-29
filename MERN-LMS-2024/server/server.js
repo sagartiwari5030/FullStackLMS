@@ -11,7 +11,7 @@ const studentCoursesRoutes = require("./routes/student-routes/student-courses-ro
 const studentCourseProgressRoutes = require("./routes/student-routes/course-progress-routes");
 
 const app = express();
-const PORT = process.env.PORT || 5005;
+const PORT = process.env.PORT || 5004;
 const MONGO_URI = process.env.MONGO_URI;
 const CLIENT_URL= process.env.CLIENT_URL;
 
